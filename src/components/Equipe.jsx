@@ -12,7 +12,7 @@ export default function Equipe(){
         //Declarativa
         let altAlysson = "Alysson Pinheiro";
         let altArthur = "Arthur Koga";
-        let altGabrielB = "Gabriel Benjamin";
+        let altGabrielB = "Gabriel Benjamim";
         let altGabrielH = "Gabriel Henrique";
         let altMurilo = "Murilo José";
         let altGithub = "Github";
