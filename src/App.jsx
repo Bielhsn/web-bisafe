@@ -10,15 +10,15 @@ export default function App(){
     <>
       <div className="container">
         {/*Cabeçalho da página*/}
-          <Cabecalho/>
+          <Cabecalho />
         {/*Conteúdo da página*/}
-          <Conteudo/>
+          <Conteudo />
         {/*Conteúdo da página*/}
-          <Vistoria/>
+          <Vistoria />
         {/*Equipe da página*/}
-          <Equipe/>
+          <Equipe />
         {/*Rodapé da página*/}
-          <Rodape/>
+          <Rodape />
       </div>
     </>
   )
