@@ -4,7 +4,7 @@ export default function Rodape(){
             <footer>
                 <div class="rodape">
                 <h1 class="copyright_bisafe">Bisafe</h1>
-                <p class="copyright">&copy;Todos os meus direitos reservador - 2023</p>
+                <p class="copyright">&copy;Todos os direitos reservados - 2023</p>
                 </div>
             </footer>
         </>
