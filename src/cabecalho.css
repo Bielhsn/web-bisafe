@@ -31,7 +31,7 @@
   }
 
   #cabecalho_main{
-    font-size: 25px;
+    font-size: 25px; /*tamanho da letra*/
     color: #38B6FF;
   }
   /* endregion Cabeçalho */
