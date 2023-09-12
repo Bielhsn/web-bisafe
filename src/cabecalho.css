@@ -1,7 +1,7 @@
 /* region Cabeçalho */
 
 .cabecalho {
-    text-align: center;
+    text-align: center; /*usado para alinha o texto em relação a página*/
     font-size: 0.6rem;
     font-weight: bold;
     text-transform: uppercase;
