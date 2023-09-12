@@ -7,7 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+#para voltar a pasta node_modules tem que dar o comando (npm install) 
+node_modules 
 dist
 dist-ssr
 *.local
