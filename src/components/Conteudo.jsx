@@ -72,7 +72,7 @@ export default function Conteudo(props) {
                 bicicleta mais acessível, eficiente e amigável para os ciclistas.</h1>
             </div>
 
-            <hr class="about_line" color="#000000"></hr>
+            <hr class="about_line" color="#38B6FF"></hr>
         </div>
 
         <div>
@@ -117,7 +117,7 @@ export default function Conteudo(props) {
         <div>
             <div>
                 <h1 id="plan">Nossos planos</h1>
-                <hr class="plan_line" color="#000000"></hr>
+                <hr class="plan_line" color="#38B6FF"></hr>
             </div>
             <div>
                 <ul class="plans">

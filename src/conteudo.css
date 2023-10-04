@@ -14,7 +14,7 @@
     display: flex;
     float: left;
     margin-top: -4rem;
-    margin-left: 18rem;
+    margin-left: 19rem;
   }
 
   #security{
@@ -151,7 +151,7 @@
     float: left;
     width: 50px;
     height: 30rem;
-    margin-left: 45rem;
+    margin-left: 50rem;
     margin-top: -22rem;
     
   }
@@ -180,7 +180,7 @@
     float: left;
     font-size: 1.75rem;
     margin-left: -35rem;
-    margin-top: 23rem;
+    margin-top: 22rem;
   }
 
   #about_mission{
@@ -195,8 +195,8 @@
     position: relative;
     width: 3vw;
     float: left;
-    margin-top: -4rem;
-    margin-left: 14em;
+    margin-top: -3.2rem;
+    margin-left: 18em;
   }
 
   /* ########## end Sobre a Bisafe ########## */
@@ -208,23 +208,24 @@
   /* Facilidade */
   #facility{
     display: flex;
-    float: right;
-    margin-top: 5rem;
-    margin-right: 69rem;
+    float: left;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    width: 8rem;
   }
 
   #facilidade{
     display: flex;
     float: right;
-    margin-top: -0.1rem;
-    margin-right: 70rem;
+    margin-right: 75rem;
+    margin-top: 0.5rem;
   }
 
   #about_facility{
     display: flex;
     float: right;
-    margin-top: -0.3rem;
-    margin-right: 53rem;
+    margin-top: -1rem;
+    margin-right: 58rem;
     font-style: italic ;
     font-weight: bold;
   }
@@ -232,21 +233,22 @@
   #agility{
     display: flex;
     float: right;
-    margin-top: -19rem;
-    margin-right: 39rem;
+    margin-top: -18.7rem;
+    margin-right: 42rem;
+    width: 9.5rem;
   }
   
   #agilidade{
     display: flex;
     float: right;
-    margin-top: -10.9rem;
-    margin-right: 41rem;
+    margin-top: -9.9rem;
+    margin-right: 44rem;
   }
   #about_agility{
     display: flex;
     float: right;
-    margin-top: -7.3rem;
-    margin-right: 26.5rem;
+    margin-top: -7.5rem;
+    margin-right: 30rem;
     font-style: italic ;
     font-weight: bold;
   }
@@ -256,21 +258,22 @@
   #efficiency{
     display: flex;
     float: right;
-    margin-top: -21rem;
-    margin-right: 15rem;
+    margin-top: -19rem;
+    margin-right: 18rem;
+    width: 8rem;
   }
   
   #eficiencia{
     display: flex;
     float: right;
     margin-top: -11rem;
-    margin-right: 15.5rem;
+    margin-right: 17rem;
   }
   #about_efficiency{
     display: flex;
     float: right;
-    margin-top: -7.3rem;
-    margin-right: 1rem;
+    margin-top: -8rem;
+    margin-right: 2rem;
     font-style: italic ;
     font-weight: bold;
   }
@@ -281,6 +284,7 @@
     float: right;
     margin-top: 1rem;
     margin-right: 55rem;
+    width: 9.5rem;
   }
   
   #reducao{
@@ -304,6 +308,7 @@
     float: right;
     margin-top: -17rem;
     margin-right: 26rem;
+    width: 9.5rem;
   }
   
   #experiencia{
