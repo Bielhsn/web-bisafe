@@ -7,6 +7,7 @@ import agilidade from "../assets/agilidade.png"
 import eficiencia from "../assets/eficiencia.png"
 import reducao from "../assets/reducao.png"
 import experiencia from "../assets/experiencia.png"
+import Bisafe from "../assets/Bisafe.png"
 
 export default function Conteudo(props) {
 
@@ -21,6 +22,7 @@ export default function Conteudo(props) {
         let altEficiencia = "Eficiencia";
         let altReducao = "Reducao";
         let altExperiencia = "Experiencia";
+        let altBisafe = "Bisafe";
 
     return (
         <>
@@ -61,18 +63,22 @@ export default function Conteudo(props) {
 
         <div className="about">
             <div>
-                <h1 id="about_bisafe">Sobre</h1>
+                <h1 id="about_bisafe">O que é a Bisafe?</h1>
             </div>
             <div id="mission">
-                <h1 id="about_mission">À medida que o ciclismo ganha cada vez mais popularidade 
-                como meio de transporte e lazer, as seguradoras de bicicletas precisam se adaptar 
-                para atender às necessidades em constante evolução de seus clientes. O Chatbot de 
-                Proteção para Seguradoras de Bicicleta da Bisafe é uma prova de que a 
-                tecnologia pode desempenhar um papel fundamental nessa adaptação, tornando o seguro de 
-                bicicleta mais acessível, eficiente e amigável para os ciclistas.</h1>
+                <h1 id="about_mission">A Bisafe é uma empresa dedicada a oferecer um ChatBot de Proteção exclusivo para as seguradoras, sempre priorizando 
+                <br/>a satisfação de seus clientes.Esta ideia surgiu da crescente popularidade do ciclismo como meio de transporte e lazer, <br/>o que demanda uma adaptação 
+                por parte das seguradoras para garantir maior segurança e confiabilidade aos seus segurados.<br/> Com esse propósito em mente, concebemos o ChatBot, que 
+                proporciona assistência aos ciclistas e representa <br/>uma significativa evolução tecnológica para as seguradoras.</h1>
+                <img src={Bisafe} alt={altBisafe} id="bisafe"/>
+                <img src={Bisafe} alt={altBisafe} id="bisafe_2"/>
+
+            <div class="line_container">
+                <label class="lines_about" for="lines_about"></label>
             </div>
 
-            <hr class="about_line" color="#38B6FF"></hr>
+                
+            </div>
         </div>
 
         <div>
