@@ -82,7 +82,10 @@ export default function Conteudo(props) {
         </div>
 
         <div>
-            <div>
+
+            
+<div class="card">
+<div>
                 <img src={facilidade} alt={altFacilidade} id="facility" />
                 <h2 id="facilidade">Facilidade</h2>
                 <p id="about_facility">Permitir que os clientes realizem a vistoria de seus  <br />
@@ -90,13 +93,21 @@ export default function Conteudo(props) {
                 deslocamentos ou agendamentos presenciais, <br />
                 tornando o processo mais conveniente e acessível.</p>
             </div>
-            <div >
+</div>
+
+
+<div class="card_2">
+<div >
                 <img src={agilidade} alt={altAgilidade} id="agility" />
                 <h2 id="agilidade">Agilidade</h2>
                 <p id="about_agility">Reduzir o tempo necessário para a conclusão <br />da vistoria,
                 acelerando o processo de <br />contratação de seguros e proporcionando<br />
                 uma resposta mais rápida aos clientes.</p>
             </div>
+</div>
+
+
+           
             <div >
                 <img src={eficiencia} alt={altEficiencia} id="efficiency" />
                 <h2 id="eficiencia">Eficiencia</h2>
@@ -122,14 +133,13 @@ export default function Conteudo(props) {
 
         <div>
             <div>
-                <h1 id="plan">Nossos planos</h1>
+                <h1 id="plan">Benefícios</h1>
                 <hr class="plan_line" color="#38B6FF"></hr>
             </div>
             <div>
                 <ul class="plans">
-                    <li> Plano Básico</li>
-                    <li> Plano Médio</li>
-                    <li> Plano Super</li>
+                    <li> Benefício para Ciclista</li>
+                    <li> Benefício para seguradora</li>
                 </ul>
             </div>
 
