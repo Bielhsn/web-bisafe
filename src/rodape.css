@@ -1,21 +1,26 @@
-footer{
-    background-color: #ffffff;
-    width: 101%;
-    float: left;
-    margin-top: 20rem;
-    margin-left: -0.4rem;
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+    float: right;
+    width: 100%;
+    margin-right: -8px;
 }
 
-.copyright_bisafe{
-    color: black;
-    float: left;
-    display: flex;
-    margin-left: 38rem;
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
-.copyright{
-    color: black;
-    float: left;
-    display: flex;
-    margin-left: 32rem;
-    margin-top: -1rem;
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
 }

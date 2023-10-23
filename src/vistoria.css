@@ -3,250 +3,80 @@
 .survey{
     display: flex;
     float: left;
-    margin-top: 5rem;
-    margin-left: 38rem;
+    margin-top: 10rem;
+    margin-left: 56rem;
   }
 
   .survey_line{
     position: relative;
-    width: 5vw;
+    width: 4vw;
     float: left;
-    margin-top: 8.6rem;
-    margin-left: -5.7rem;
+    margin-top: 13.2rem;
+    margin-left: -6rem;
+    color: #38B6FF;
   }
   
-  /* Número de série */
+#titles_vistoria{
+  float: left;
+  margin-top: 17rem;
+  margin-left: -30.5rem;
+  text-align: center;
+}
 
-  #bike_ns{
-      display: flex;
-      float: left;
-      margin-top: 10rem;
-      margin-left: -38rem;
-    }
+.traseira{
+  float: left;
+  margin-left: 24rem;
+}
 
-    .input_ns {
-      margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -17rem;
-    }
+.laterais{
+  float: left;
+  margin-left: 24rem;
+}
 
-    /* Foto da Bicicleta */
-
-  #bike_fb{
+  .custum-file-upload {
+    height: 100px;
+    width: 200px;
     display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #e8e8e8;
+    background-color: #212121;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px #e8e8e8;
     float: left;
-    margin-top: 10rem;
-    margin-left: -12rem;
-  }
-
-  .input_fb {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -17rem;
+    margin-top: 21rem;
+    margin-left: -35rem;
   }
   
-  /* Guidão */
+  .custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
-  #bike_g{
+  .custum-file-upload .icon svg {
+    height: 80px;
+    fill: #e8e8e8;
+  }
+  
+  .custum-file-upload .text {
     display: flex;
-    float: left;
-    margin-top: 10rem;
-    margin-left: 12rem;
+    align-items: center;
+    justify-content: center;
   }
-
-  .input_g {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -14rem;
+  
+  .custum-file-upload .text span {
+    font-weight: 400;
+    color: #e8e8e8;
   }
-
-  /* Freio traseiro */
-
-  #bike_ft{
-    display: flex;
-    float: left;
-    margin-top: 2rem;
-    margin-left: 9rem;
-  }
-
-  .input_ft {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -15.7rem;
-  }
-
-  /* Banco */
-
-  #bike_b{
-    display: flex;
-    float: left;
-    margin-top: 2rem;
-    margin-left: 11em;
-  }
-
-  .input_b {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -13rem;
-  }
-
-  /* Freio dianteiro */
-
-  #bike_fd{
-    display: flex;
-    float: left;
-    margin-top: 2rem;
-    margin-left: 8rem;
-  }
-
-  .input_fd {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -16.8rem;
-  }
-
-  /* Roda dianteira */
-
-  #bike_rt{
-    display: flex;
-    float: left;
-    margin-top: 2rem;
-    margin-left: 9rem;
-  }
-
-  .input_rt {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -15.6rem;
-  }
-
-  /* Coroa e Pedal */
-
-  #bike_cp{
-    display: flex;
-    float: left;
-    margin-top: 2rem;
-    margin-left: 7rem;
-  }
-
-  .input_cp {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -16rem;
-  }
-
-  /* Roda dianteira */
-
-  #bike_rd{
-    display: flex;
-    float: left;
-    margin-top: 2rem;
-    margin-left: 8rem;
-  }
-
-  .input_rd {
-    margin: 30px;
-      background: none;
-      border: none;
-      outline: none;
-      max-width: 298px;
-      padding: 10px 10.5px;
-      font-size: 0.9rem;
-      border-radius: 9px;
-      box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-      color: #fff;
-      display: flex;
-      float: left;
-      margin-top: 5rem;
-      margin-left: -17rem;
+  
+  .custum-file-upload input {
+    display: none;
   }
 
   /* Enviar arquivos */
@@ -265,8 +95,8 @@
     overflow: hidden;
     transition: all 0.2s;
     float: left;
-    margin-left: -42rem;
-    margin-top: 13rem;    
+    margin-left: -55rem;
+    margin-top: 36rem;    
   }
   
   .bn_send_ar span {

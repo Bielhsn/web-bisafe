@@ -2,11 +2,16 @@ export default function Rodape(){
     return(
         <>
             <footer>
-                <div class="rodape">
-                <h1 class="copyright_bisafe">Bisafe</h1>
-                <p class="copyright">&copy;Todos os meus direitos reservador - 2023</p>
-                </div>
-            </footer>
+	<p>&copy; 2023 - Todos os direitos reservados</p>
+	<nav>
+		<ul>
+			<li><a href="#">Termos de uso</a></li>
+			<li><a href="#">Política de privacidade</a></li>
+			<li><a href="#">Sobre nós</a></li>
+			<li><a href="#">Contato</a></li>
+		</ul>
+	</nav>
+</footer>
         </>
     )
 }
