@@ -1,18 +1,28 @@
 
 export default function Cabecalho(props){
-
     return(
         <>
-            <header class="cabecalho">
+            <header className="cabecalho">
 
        <nav>
-        <ul>
-            <li class="cabecalho__item-menu"> <a href="sobre.html#contato"> Início </a> </li>
-            <li class="cabecalho__item-menu"> <a href="#"> Planos </a> </li>
-            <li class="cabecalho__item-menu" > <a href="#" id="cabecalho_main"> Bisafe </a> </li>
-            <li class="cabecalho__item-menu"> <a href="#"> Cadastro </a> </li>
-            <li class="cabecalho__item-menu"> <a href="#"> Registre-se </a> </li>
-        </ul>
+            <ul>
+
+                 <li className="cabecalho__item-menu"> 
+                    <a href="/"> Início </a> 
+                </li>
+                <li className="cabecalho__item-menu"> 
+                    <a href="/Planos"> Planos </a> 
+                </li>
+                <li className="cabecalho__item-menu" >
+                     <a href="/" id="cabecalho_main"> Bisafe </a>
+                </li>
+                <li className="cabecalho__item-menu">
+                    <a href="/Cadastro"> Cadastro </a> 
+                </li>
+                <li className="cabecalho__item-menu"> 
+                    <a href="/Register"> Registre-se </a> 
+                </li> 
+            </ul>
        </nav>
         {props.children}
      </header>
