@@ -1,7 +1,8 @@
 function Register(){
     return(
         <>
-        <h1>Register</h1>
+        <h1 className="teste">Register</h1>
+        
         </>
     )
 }

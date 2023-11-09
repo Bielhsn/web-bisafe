@@ -7,6 +7,7 @@ import './conteudo.css'
 import './vistoria.css'
 import './equipe.css'
 import './rodape.css'
+import './register.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

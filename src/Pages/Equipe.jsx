@@ -6,11 +6,8 @@ import Murilo from "../assets/murilo.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 
-
-export default function Equipe(){
-    
-        //Declarativa
-        let altAlysson = "Alysson Pinheiro";
+function Equipe(){
+    let altAlysson = "Alysson Pinheiro";
         let altArthur = "Arthur Koga";
         let altGabrielB = "Gabriel Benjamin";
         let altGabrielH = "Gabriel Henrique";
@@ -18,9 +15,8 @@ export default function Equipe(){
         let altGithub = "Github";
         let altLinkedin = "Linkedin";
 
-    return (
+    return(
         <>
-        <hr size="1" id="line_team" color= "#000000"></hr>
         <h1 class="team">Equipe</h1>
         <hr size="1" id="line_team_mini" color= "#38B6FF"></hr>
 
@@ -82,11 +78,7 @@ export default function Equipe(){
 
 
         </div>
-
-
-
-
-
         </>
     )
 }
+export default Equipe;
