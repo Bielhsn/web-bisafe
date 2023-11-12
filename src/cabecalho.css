@@ -7,7 +7,7 @@
   text-transform: uppercase;
   letter-spacing: 0.23em;
   color: #fff;
-  margin-left: 37rem;
+  margin-left: -2rem;
 }
 
 .cabecalho__logo {
@@ -32,3 +32,37 @@
   color: #38B6FF;
 }
   /* endregion Cabeçalho */
+
+  @media only screen and (max-device-width: 900px){
+    .cabecalho {
+      text-align: center;
+      font-size: 0.6rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.23em;
+      color: #fff;
+      margin-left: 0rem;
+    }
+    
+    .cabecalho__logo {
+      padding: 1.5em 0;
+      width: 14.5em;
+    }
+      
+    .cabecalho__item-menu {
+      display: inline-block;
+    }
+      
+    .cabecalho__item-menu a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 1.86em 1.42em;
+      color: #ffffff;
+      font-size: 13px;
+    }
+    
+    #cabecalho_main{
+      font-size: 25px;
+      color: #38B6FF;
+    }
+  }
