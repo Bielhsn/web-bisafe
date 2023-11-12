@@ -3,6 +3,7 @@ import Arthur from "../assets/arthur.png";
 import Benjamin from "../assets/benjamin.png";
 import Henrique from "../assets/henrique.png";
 import Murilo from "../assets/murilo.png";
+import Henry from "../assets/Henry.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 
@@ -12,6 +13,7 @@ function Equipe(){
         let altGabrielB = "Gabriel Benjamin";
         let altGabrielH = "Gabriel Henrique";
         let altMurilo = "Murilo José";
+        let altHenry = "Henry Ribeiro";
         let altGithub = "Github";
         let altLinkedin = "Linkedin";
 
@@ -29,8 +31,8 @@ function Equipe(){
 
             <div className="time_2">
             <img src={Henrique} alt={altGabrielH} id="foto_equipe1" />
-            <img src={Henrique} alt={altGabrielH} id="foto_equipe1" />
-            <img src={Murilo} alt={altMurilo} id="foto_equipe1" />
+            <img src={Henry} alt={altHenry} id="foto_equipe1" className="foto_henry" />
+            <img src={Murilo} alt={altMurilo} className="foto_murilo"/>
             </div>
 
             <div className="alysson">
@@ -62,8 +64,8 @@ function Equipe(){
             </div>
 
             <div className="henry">
-            <h1 id="name_he">Henry</h1>
-            <h1 id="henry_rm">Rm:</h1>
+            <h1 id="name_he">Henry Ribeiro</h1>
+            <h1 id="henry_rm">Rm: 550684</h1>
             <img src={github} alt={altGithub} id="henry_github" />
             <img src={linkedin} alt={altLinkedin} id="henry_linkedin" />
             </div>

@@ -1,11 +1,14 @@
+import Login from "../assets/login.png";
+
 function Register(){
+  let altLogin = "Login";
     return(
         <>
            <div class="form-container">
-      <p class="title">Welcome back</p>
+      <p class="title">Login</p>
       <form class="form">
         <input type="email" class="input" placeholder="Email"></input>
-        <input type="password" class="input" placeholder="Password"></input>
+        <input type="password" class="input" placeholder="Senha"></input>
         <p class="page-link">
           <span class="page-link-label">Forgot Password?</span>
         </p>
@@ -37,6 +40,20 @@ function Register(){
         </div>
       </div>
     </div>
+    <div id="register">
+    <div class="form-register">
+      <p class="title_register">Register</p>
+      <form class="form">
+        <input type="name" class="input" placeholder="Nome"></input>
+        <input type="email" class="input" placeholder="Email"></input>
+        <input type="email" class="input" placeholder="Confirme o Email"></input>
+        <input type="password" class="input" placeholder="Senha"></input>
+        <input type="password" class="input" placeholder="Confirme a Senha"></input>
+        <button class="form-btn">Register</button>
+      </form>
+    </div>
+    </div>
+    <img src={Login} alt={altLogin} id="login" />
         </>
     )
 }

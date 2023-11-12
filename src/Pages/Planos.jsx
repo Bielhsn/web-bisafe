@@ -114,7 +114,7 @@ function Planos(){
       </div>
       <h1 class="survey">Vistoria</h1>
       <hr class="survey_line" color="#38B6FF"></hr>
-      <div>
+      <div className="frontal">
       <h1 id="titles_vistoria">Frontal</h1>
       <label for="file" class="custum-file-upload">
         <div class="icon">
