@@ -2,8 +2,8 @@ import Alysson from "../assets/alysson.png";
 import Arthur from "../assets/arthur.png";
 import Benjamin from "../assets/benjamin.png";
 import Henrique from "../assets/henrique.png";
-import Murilo from "../assets/murilo.png";
-import Henry from "../assets/Henry.png";
+import Murilo from "../assets/murilo2.png";
+import Henry from "../assets/Henry2.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 
