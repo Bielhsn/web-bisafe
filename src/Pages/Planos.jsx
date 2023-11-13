@@ -3,6 +3,7 @@ import agilidade from "../assets/agilidade.png";
 import eficiencia from "../assets/eficiencia.png";
 import reducao from "../assets/reducao.png";
 import experiencia from "../assets/experiencia.png";
+import Vistoria_IA from "./Vistoria_IA";
 
 function Planos(){
 
@@ -110,9 +111,9 @@ function Planos(){
                     permitindo que as seguradoras identifiquem tendências e tomem decisões informadas para melhorar seus serviços.</li>
             </ul>
         </div>
-        
+        <Vistoria_IA/>
       </div>
-      <h1 class="survey">Vistoria</h1>
+      {/* <h1 class="survey">Vistoria</h1>
       <hr class="survey_line" color="#38B6FF"></hr>
       <div className="frontal">
       <h1 id="titles_vistoria">Frontal</h1>
@@ -236,7 +237,7 @@ function Planos(){
           </div>
         </div>
         <span>Send</span>
-      </button>
+      </button> */}
         </>
     )
 }

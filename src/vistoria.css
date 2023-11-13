@@ -32,9 +32,18 @@
   float: left;
   margin-left: 24rem;
 }
+ /* Sombra verde */
+ .box-shadow-green {  
+  box-shadow: 0px 48px 35px -48px #15c800;
+}
+
+/* Sombra vermelha */
+.box-shadow-red {   
+  box-shadow: 0px 48px 35px -48px #ff0000;
+}
 
   .custum-file-upload {
-    height: 100px;
+    height: 110px;
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -42,7 +51,7 @@
     gap: 20px;
     cursor: pointer;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     border: 2px dashed #e8e8e8;
     background-color: #212121;
     padding: 1.5rem;
@@ -77,6 +86,10 @@
   
   .custum-file-upload input {
     display: none;
+  }
+  .resposta{   
+  margin-bottom: -80px;
+    width: 231px;
   }
 
   /* Enviar arquivos */

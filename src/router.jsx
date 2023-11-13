@@ -4,6 +4,7 @@ import Register from "./Pages/Register"
 import Equipe from "./Pages/Equipe"
 import Planos from "./Pages/Planos"
 import Home from "./Pages/Home"
+import Vistoria_IA from "./Pages/Vistoria_IA";
 
 
 function AppRoutes(){
@@ -15,6 +16,7 @@ function AppRoutes(){
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/Equipe" element={<Equipe/>}></Route>
                 <Route path="/Register" element={<Register/>}></Route>
+                <Route path="/Vistoria_IA" element={<Vistoria_IA/>}></Route>
             </Routes>
         </BrowserRouter>
     )
