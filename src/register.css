@@ -153,6 +153,31 @@
     margin-left: 50rem;
     margin-top: 50px;
   }
+  .form-cadastro {
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin-right: 257px;
+    margin-left: 50rem;
+    margin-top: 602px;
+  }
+  .form-bicicleta {
+    width: 630px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin-right: 320px;
+    margin-left: 50rem;
+    margin-top: 602px;
+  }
+
   
   .title_register {
     text-align: center;
@@ -176,6 +201,19 @@
     outline: 0 !important;
     box-sizing: border-box;
     padding: 12px 15px;
+  }
+  .input_cor {
+    border-radius: 20px;
+    width: 150px;
+    color: #000;
+    display: flex;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+  .input_cor input {
+    border-radius: 20px;
+    margin: auto;
+    border: 1px solid #38B6FF;
   }
   
   .page-link {

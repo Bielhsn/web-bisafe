@@ -1,31 +1,22 @@
 
+import React from 'react';
+import { Link } from "react-router-dom";
 export default function Cabecalho(props){
-    return(
-        <>
-            <header className="cabecalho">
-
-       <nav>
+    return (
+        <header className="cabecalho">
+          <nav>
             <ul>
+              {/* ta o "*" para qual ser igual o do main e n der o erro 404 */}
+              <li className="cabecalho__item-menu"><Link to="/"> Início</Link></li> 
+              <li className="cabecalho__item-menu"><Link to="/Planos"> Planos</Link></li> 
+              <li className="cabecalho__item-menu"><Link to="/" id="cabecalho_main"> Bisafe</Link></li> 
+              <li className="cabecalho__item-menu"><Link to="/Equipe"> Equipe </Link></li> 
+              <li className="cabecalho__item-menu"><Link to="/Login"> Login </Link></li> 
 
-                 <li className="cabecalho__item-menu"> 
-                    <a href="/"> Início </a> 
-                </li>
-                <li className="cabecalho__item-menu"> 
-                    <a href="/Planos"> Planos e Vistoria </a> 
-                </li>
-                <li className="cabecalho__item-menu" >
-                     <a href="/" id="cabecalho_main"> Bisafe </a>
-                </li>
-                <li className="cabecalho__item-menu">
-                    <a href="/Equipe"> Equipe </a> 
-                </li>
-                <li className="cabecalho__item-menu"> 
-                    <a href="/Register"> Login/Register </a> 
-                </li> 
             </ul>
-       </nav>
-        {props.children}
-     </header>
-        </>
-    )
+          </nav>
+          {props.children}
+        </header>
+        
+      );
 }
